@@ -4,7 +4,12 @@
     padding: 0;
 }
 body{
-    background-color: bisque;
+    background-color:hsl(212, 45%, 89%);
+    height: 100vh;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 h2{
     font-weight: 700;
@@ -16,12 +21,12 @@ p{
     color:#333;
     font-size:25px;
 }
-.container{
+/*.container{
     background-color:hsl(212, 45%, 89%);
     height: 100vh;
     
     position: relative;
-}
+}*/
 .qr-code{
     display: flex;
     justify-content: center;
@@ -29,8 +34,7 @@ p{
     flex-direction: column;
     position: relative;
     padding: 20px 10px 40px 10px;
-    top: 100px;
-    left: 650px;
+    
     background-color: #fff;
     max-width: 450px;
     border-radius: 10px;
